@@ -40,7 +40,7 @@ header a {
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #252525;
 }
 
@@ -83,11 +83,12 @@ nav {
     font-size: 2rem;
 }
 
-/*Main*/
+/*Main content*/
 main {
     background-color: lightblue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
